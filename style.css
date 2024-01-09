@@ -5,3 +5,33 @@
 .divs-facilidade{
     width: 325px;
 }
+
+.verde-limao {
+    color: #DAFF01;
+}
+
+.botao-lilas {
+    background-color: #9353FF;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:50%;
+    }
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
